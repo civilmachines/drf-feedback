@@ -1,29 +1,36 @@
-DRF Feedback
+# DRF Add Ons
 
-Feedbank APP for Django REST Framework with API Views.
+**Feedbank APP for Django REST Framework with API Views.**<br>
+
+`DRF Feedback` is a collection package collected over a period of one year from various sources.<br>
+In each function/class I've specified its source in `docstrings` inside `Source` / `Sources`.<br> 
+Wherever there isn't any source, the module has been created by me for my personal use.<br>
+This may come in handy to all those who are going to use `Django REST Framework` for creating `API`.<br>
 
 I'll like to mention following names for certain contributions:
 
-Civil Machines Technologies Private Limited: For providing me platform and funds for research work. This project is hosted currently with CMT only.
-Mahen Gandhi: For making this repository into a library. At the time of this commit, he is an intern with CMT and is assigned with the task of making this as a Python Package hosted on PyPi.
-Aditya Gupta: For updating this repository and projects using this repository as per the latest standards. He is also an intern with CMT and is assigned with same task as Mahen. 
+- **[Civil Machines Technologies Private Limited](https://github.com/civilmahines)**: For providing me platform and funds
+for research work. This project is hosted currently with `CMT` only. 
+- [Mahen Gandhi](https://github.com/imlegend19): For making this repository into a library. At the time of this commit,
+he is an intern with `CMT` and is assigned with the task of making this as a `Python Package` hosted on 
+[PyPi](https://pypi.org/).
+- [Aditya Gupta](https://github.com/ag93999): For updating this repository and projects using this repository as per
+the latest standards. He is also an intern with `CMT` and is assigned with same task as `Mahen`. 
 
-Installation
+#### Installation
 
-Download and Install via pip
-
-pip install drfaddons
-
-or
-
-Download and Install via easy_install
-
-easy_install drfaddons
-
-Add drfaddons in INSTALLED_APPS
-
+- Download and Install via `pip`
+```
+pip install drf-feedback
+```
+or<br>
+Download and Install via `easy_install`
+```
+easy_install drf-feedback
+```
+- Add `drf-feedback` in `INSTALLED_APPS`<br>
+```
 INSTALLED_APPS = [
     ...
-    'drfaddons',
+    'drf-feedback',
     ...
-]
