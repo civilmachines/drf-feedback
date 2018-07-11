@@ -1,6 +1,6 @@
-# DRF Add Ons
+# DRF Feedback
 
-**Feedbank APP for Django REST Framework with API Views.**<br>
+**Feedback APP for Django REST Framework with API Views.**<br>
 
 `DRF Feedback` is a Django App that can for collecting feedback from end user. It's view are based upon
 `Django REST Framework's GenericAPIView` and hence it contains a RESTful API views also.
@@ -12,6 +12,9 @@ I'll like to mention following names for certain contributions:
 funds for research work. This project is hosted currently with `CMT` only. 
 - [Himanshu Shankar](https://github.com/iamhssingh): For guiding me and providing me mentorship while doing this
 project.
+- [Mahen Gandhi](https://github.com/imlegend19): For updating this repository and projects using this repository as
+ per the latest standards and for making this repository into a library. At the time of this commit, he is an intern
+  with CMT and is assigned with the task of making this as a Python Package hosted on PyPi.
 
 #### Installation
 
@@ -36,7 +39,7 @@ INSTALLED_APPS = [
 ```
 urlpatterns = [
     ...
-    path('feedback/', include('feedback.urls')),
+    path('feedback/', include('drf_feedback.urls')),
     ...
 ]
 
@@ -44,7 +47,7 @@ urlpatterns = [
 
 urlpatterns = [
     ...
-    url(r'feedback/', include('feedback.urls')),
+    url(r'feedback/', include('drf_feedback.urls')),
     ...
 ]
 ```
