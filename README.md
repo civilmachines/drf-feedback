@@ -37,7 +37,7 @@ INSTALLED_APPS = [
 ```
 urlpatterns = [
     ...
-    path('feedback/', include('feedback.urls')),
+    path('feedback/', include('drf_feedback.urls')),
     ...
 ]
 
@@ -45,7 +45,7 @@ urlpatterns = [
 
 urlpatterns = [
     ...
-    url(r'feedback/', include('feedback.urls')),
+    url(r'feedback/', include('drf_feedback.urls')),
     ...
 ]
 ```
