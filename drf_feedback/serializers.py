@@ -9,4 +9,4 @@ class AddFeedbackSerializer(serializers.ModelSerializer):
         from .models import Feedback
 
         model = Feedback
-        fields = ('name', 'email', 'mobile', 'message', 'url')
+        fields = ('name', 'email', 'mobile', 'message')
